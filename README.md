@@ -7,6 +7,8 @@ Put [DarkAthame Comp.] Into Your Functions Folder And Use What Files That You Wa
 Just Put [function darkathame%20comp:masterloop] On Whatever Loop You Have To Get Things Going
 Use The Hashtags To Enable/Disable Functions In The Master Loop
 
+Some Files May Have A Int (Install) And A Unint (Uninstall) Function File, These Are Used To Activate/Deactivate Things Like Scoreboards, So Make Sure To Use Them!
+
 Worst Regards,
 u/Athame-The-VoidIndex
 
