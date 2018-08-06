@@ -6,3 +6,6 @@
 
 ##Walking Experience
 #function darkathame_comp1_13:walkingexperience/walkxp
+
+##Glowing Chickens
+#function darkathame_comp1_13:glowingchickens/chickenglow
