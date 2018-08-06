@@ -1,1 +1,1 @@
-scoreboard objectives remove
+scoreboard objectives remove getdragonSword
