@@ -24,3 +24,6 @@
 
 ##Nitwit Only Mode
 #function darkathame_comp1_13:nitwitonlymode/nitwit
+
+##Best Creeper Ideas
+#function darkathame_comp1_13:bestcreeperidea/bestcreeper
