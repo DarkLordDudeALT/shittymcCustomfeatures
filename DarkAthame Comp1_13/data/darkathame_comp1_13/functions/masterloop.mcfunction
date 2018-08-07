@@ -21,3 +21,6 @@
 
 ##Embiggening Phantoms
 #Dunction darkathame_comp1_13:embiggeningphantoms/phantomenlarge
+
+##Nitwit Only Mode
+#function darkathame_comp1_13:nitwitonlymode/nitwit
