@@ -20,7 +20,7 @@
 #function darkathame_comp1_13:worldfallthough/fallthrough
 
 ##Embiggening Phantoms
-#Dunction darkathame_comp1_13:embiggeningphantoms/phantomenlarge
+#function darkathame_comp1_13:embiggeningphantoms/phantomenlarge
 
 ##Nitwit Only Mode
 #function darkathame_comp1_13:nitwitonlymode/nitwit
