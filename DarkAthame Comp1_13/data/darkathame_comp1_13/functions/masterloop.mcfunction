@@ -27,3 +27,6 @@
 
 ##Best Creeper Ideas
 #function darkathame_comp1_13:bestcreeperidea/bestcreeper
+
+##Netherwart Contagion
+#function darkathame_comp1_13:netherwartcontagion/netherwarts
