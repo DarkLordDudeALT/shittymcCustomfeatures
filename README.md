@@ -1,4 +1,4 @@
-I'm Gonna Try And Make Some Of Those Beautiful Ideas From r/shittymcsuggestions.
+I'm Gonna Try And Make Some Of Those Beautiful Ideas From r/shittymcsuggestions (And Some Others).
 
 Yeah That's Right, Now I'm Not Going To Do Everything, Some Suggestions Are Far To... Perplexing?, Anyways Ima Try And Big Cheese It.
 Your Free To Use Any File Here However You Want, That Is My Intention After All.
