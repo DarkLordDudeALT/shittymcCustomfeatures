@@ -34,3 +34,5 @@
 ##Overworld Exploding Beds
 #function darkathame_comp1_13:overworldexplodebeds/explodingbeds
 
+##Fire Fighter Golems
+#function darkathame_comp1_13:firefightergolem/firefgolem
