@@ -30,3 +30,7 @@
 
 ##Netherwart Contagion
 #function darkathame_comp1_13:netherwartcontagion/netherwarts
+
+##Overworld Exploding Beds
+#function darkathame_comp1_13:overworldexplodebeds/explodingbeds
+
