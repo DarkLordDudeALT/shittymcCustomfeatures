@@ -5,6 +5,9 @@ execute as @a at @s if block ~ ~-1 ~ minecraft:jack_o_lantern if block ~ ~-2 ~ m
 execute at @a[tag=sumBgolem] run fill ~ ~-1 ~ ~ ~-3 ~ air
 #Summons Golem
 execute at @a[tag=sumBgolem] run summon minecraft:snow_golem ~ ~-3 ~ {CustomNameVisible:1b,DeathLootTable:"darkathame_comp1_13:brewing_golem",PersistenceRequired:1b,CustomName:"{\"text\":\"Fire Fighter Golem\",\"color\":\"dark_purple\"}"}
+#Sounds And Particles For The Summon
+execute at @a[tag=sumBgolem] run particle witch ~ ~-2.5 ~ 0 0 0 2 60 normal
+execute at @a[tag=sumBgolem] run playsound minecraft:entity.splash_potion.break neutral @a ~ ~ ~ 1 0.8
 #Clears Snow
 execute at @e[type=snow_golem,name="Fire Fighter Golem"] run fill ~1 ~ ~1 ~-1 ~ ~-1 minecraft:air replace minecraft:snow
 #Gives A Fire Resistance To The Golem
