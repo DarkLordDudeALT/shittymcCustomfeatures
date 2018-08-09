@@ -18,6 +18,7 @@ execute at @e[type=armor_stand,name=diamondManS,scores={dmansumtime=500..}] run 
 #Summons The Almighty Diamond Man
 execute at @e[type=armor_stand,name=diamondManS,scores={dmansumtime=600}] run summon minecraft:creeper ~ ~ ~ {NoGravity:1b,ExplosionRadius:6b,Fuse:0}
 execute at @e[type=armor_stand,name=diamondManS,scores={dmansumtime=600}] run summon minecraft:zombie ~ ~-2 ~ {CustomNameVisible:1b,PersistenceRequired:1b,Health:1f,CustomName:"{\"text\":\"Diamond_Man\"}",HandItems:[{id:"minecraft:diamond",Count:6b},{}],HandDropChances:[1.0F,0.85F],ArmorItems:[{id:"minecraft:diamond_boots",Count:1b},{id:"minecraft:diamond_leggings",Count:1b},{id:"minecraft:diamond_chestplate",Count:1b},{id:"minecraft:diamond_block",Count:1b}],ArmorDropChances:[0.0F,0.0F,0.0F,0.0F],ActiveEffects:[{Id:11b,Amplifier:5b,Duration:5,ShowParticles:0b}],Attributes:[{Name:generic.maxHealth,Base:1},{Name:generic.followRange,Base:80},{Name:generic.knockbackResistance,Base:1.0},{Name:generic.attackDamage,Base:1000},{Name:generic.armor,Base:0}]}
+execute at @e[type=armor_stand,name=diamondManS,scores={dmansumtime=600}] run say DIAMOND MAAAAAAAAAAAAAAANNNNNNN!!! (To The Tune Of [Pepsi Man Theme Song])
 #Wow Susan
 execute at @e[type=armor_stand,name=diamondManS,scores={dmansumtime=601..}] run kill @e[type=item,tag=dmsumgraphic,distance=..1]
 kill @e[type=armor_stand,name=diamondManS,scores={dmansumtime=601..}]
