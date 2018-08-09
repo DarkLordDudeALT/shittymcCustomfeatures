@@ -36,3 +36,6 @@
 
 ##Fire Fighter Golems
 #function darkathame_comp1_13:firefightergolem/firefgolem
+
+##Explosive Pigs
+#function darkathame_comp1_13:explosivepigs/explodingpig
