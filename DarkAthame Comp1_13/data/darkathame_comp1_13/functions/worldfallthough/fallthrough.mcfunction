@@ -18,9 +18,11 @@ execute at @e[type=armor_stand,name=falltChance,tag=falltSuccess] run tag @a[dis
 kill @e[type=armor_stand,name=falltChance]
 #The Fall Through Mekanism
 execute at @a[tag=willfallThrough] as @a[tag=willfallThrough] run teleport @s ~ ~-1 ~
+#Advancement
+advancement grant @a[tag=willfallThrough] only darkathame_comp1_13:shittymcadvancements/worldfallthrough
+
 #Clears Tag
 execute at @a positioned ~ -3 ~ as @a[distance=..2] run tag @a[distance=..2] remove willfallThrough
-
 #Random Chance Generator For Players
 execute at @e[limit=1,type=!player,scores={fallThrough=5400..}] run summon minecraft:armor_stand ~ ~ ~ {CustomNameVisible:0b,NoGravity:1b,Marker:1b,Invisible:1b,CustomName:"{\"text\":\"falltChance\"}"}
 execute at @e[limit=1,type=!player,scores={fallThrough=5400..}] run summon minecraft:armor_stand ~ ~ ~ {CustomNameVisible:0b,NoGravity:1b,Marker:1b,Invisible:1b,CustomName:"{\"text\":\"falltChance\"}"}
