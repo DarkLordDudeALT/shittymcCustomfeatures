@@ -18,6 +18,8 @@ execute at @e[type=snow_golem,name="Fire Fighter Golem"] at @e[type=snowball,dis
 execute as @e[name=BGprojc,tag=!SbAsum] at @s store result entity @s Motion[0] double 1 run data get entity @e[type=minecraft:snowball,distance=..1,limit=1] Motion[0] 
 execute as @e[name=BGprojc,tag=!SbAsum] at @s store result entity @s Motion[1] double 1 run data get entity @e[type=minecraft:snowball,distance=..1,limit=1] Motion[1] 
 execute as @e[name=BGprojc,tag=!SbAsum] at @s store result entity @s Motion[2] double 1 run data get entity @e[type=minecraft:snowball,distance=..1,limit=1] Motion[2] 
+#Advancement
+execute at @e[type=snow_golem,name="Fire Fighter Golem"] as @a[distance=..3] run advancement grant @s only darkathame_comp1_13:shittymcadvancements/firefightergolem
 #Reset/Cleanup
 tag @a remove sumBgolem
 execute at @e[name=BGprojc,tag=!SbAsum] run kill @e[type=snowball,distance=..1,limit=1]
