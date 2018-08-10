@@ -13,3 +13,8 @@ Said "Sporecloud" Is 15x As Infectious As The Warts Themselves, And Carries Over
 
 From u/smernald
 Called "Nether warts are now contagious"
+
+Uses:
+netherwartcontagion.json
+spreadnetherwarts.json
+survivenetherwarts.json
