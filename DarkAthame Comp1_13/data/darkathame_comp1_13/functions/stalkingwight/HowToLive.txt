@@ -17,3 +17,6 @@ From u/Endshulker
 Called "Special mob after many days of no sleep (replace phantoms)"
 
 Note: The Op Asked For Somethin Spoopy, And A Dullahan Would Be Pretty Good. However, With The Way It Stalks, Looks, Is, It's Much Better As A Wight, Isn't That Wight?
+
+Uses:
+stalkingwight.json
