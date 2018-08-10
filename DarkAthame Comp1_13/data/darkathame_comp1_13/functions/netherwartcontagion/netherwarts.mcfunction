@@ -6,13 +6,17 @@ scoreboard players add @a[scores={wartexposureTime=1..},tag=!netherWarts] wartRe
 scoreboard players remove @a[scores={wartRexpoTime=3..},tag=!netherWarts] wartexposureTime 1
 scoreboard players set @a[scores={wartRexpoTime=3..}] wartRexpoTime 0
 #Gives Infection
-tag @a[scores={wartexposureTime=300..}] add netherWarts
+tag @a[scores={wartexposureTime=300..},tag=!imtWarts] add netherWarts
 #Reset
 scoreboard players set @a[tag=netherWarts] wartexposureTime 0
 #Timer
 scoreboard players add @a[tag=netherWarts] wartInfTime 1
 #Allows For Infection To Spread From One Player To Another
 execute at @a[tag=netherWarts] as @a[tag=!netherwarts,distance=..2] run scoreboard players add @s wartexposureTime 1
+#Grants Advancements
+advancement grant @a[tag=netherWarts] only darkathame_comp1_13:shittymcadvancements/netherwartcontaigion
+execute at @a[scores={wartInfTime=..1},tag=netherWarts] run advancement grant @a[tag=netherWarts,distance=2,scores={wartInfTime=2..}] only darkathame_comp1_13:shittymcadvancements/spreadnetherwarts
+advancement grant @a[scores={wartInfTime=744000..}] only darkathame_comp1_13:shittymcadvancements/survivenetherwarts
 #Slowness Debuff For Infected Personal
 effect give @a[scores={wartInfTime=93000..185999}] minecraft:slowness 1 0 true
 effect give @a[scores={wartInfTime=186000..278999}] minecraft:slowness 1 1 true
@@ -119,5 +123,6 @@ tag @a[tag=!netherWarts] remove stopwartCheck
 scoreboard players set @a wartCloud 0
 scoreboard players set @a[tag=!netherWarts] wartFireCoold 0
 scoreboard players set @a wartFireRest 0
+tag @a[scores={wartInfTime=744000..}] add imtWarts 
 tag @a[scores={wartInfTime=744000..}] remove netherWarts 
 scoreboard players set @a[tag=!netherWarts] wartInfTime 0
