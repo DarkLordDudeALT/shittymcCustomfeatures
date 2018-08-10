@@ -9,6 +9,8 @@ Just Put The Command [function darkathame_comp1_13:masterloop] On Whatever Loop 
 Use The Hashtags To Enable/Disable Functions In The Master Loop.
 Some Files May Have A Int (Install) And A Unint (Uninstall) Function File, These Are Used To Activate/Deactivate Things Like Scoreboards, So Make Sure To Use Them!
 
+Now With Advancements
+
 Worst Regards,
 u/Athame-The-VoidIndex.
 
