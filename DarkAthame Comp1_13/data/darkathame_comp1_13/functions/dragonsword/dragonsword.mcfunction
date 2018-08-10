@@ -8,5 +8,7 @@ tag @a[nbt={SelectedItem:{id:"minecraft:diamond_sword",tag:{display:{Name:"{\"te
 #Rips Apart Creative And Spectator Players
 execute at @a[tag=holdingdragonSword] run kill @a[gamemode=creative,distance=1..10]
 execute at @a[tag=holdingdragonSword] run kill @a[gamemode=spectator,distance=1..10]
+#Grants Advancement
+advancement grant @a[tag=holdingdragonSword] only darkathame_comp1_13:shittymcadvancements/dragonsword
 #Another Reset
 tag @a[tag=holdingdragonSword] remove holdingdragonSword
