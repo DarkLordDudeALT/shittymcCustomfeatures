@@ -5,3 +5,7 @@ Step 4: Grofit
 
 From u/[deleted]
 Called "New Mob: Diamond Man"
+
+Uses:
+
+diamondman.json
