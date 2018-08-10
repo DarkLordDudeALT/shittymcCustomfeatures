@@ -39,3 +39,6 @@
 
 ##Explosive Pigs
 #function darkathame_comp1_13:explosivepigs/explodingpig
+
+##The Wight
+#function darkathame_comp1_13:stalkingwight/wight
