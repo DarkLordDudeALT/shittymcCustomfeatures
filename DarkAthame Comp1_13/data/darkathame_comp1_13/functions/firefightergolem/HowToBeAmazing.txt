@@ -7,4 +7,6 @@ Called "Add Brewing Stand Golems"
 
 Changed To: Add Fire Fighter Golems ;)
 
-Has Loot Table File "brewing_golem.json"
+Uses:
+brewing_golem.json
+firefightergolem.json
