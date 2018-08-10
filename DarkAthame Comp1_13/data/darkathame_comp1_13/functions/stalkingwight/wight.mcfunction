@@ -38,8 +38,9 @@ execute as @e[type=stray,name=Wight] at @s if entity @a[distance=..50,scores={wi
 execute as @e[type=skeleton_horse,name="Wight Horse"] at @s if entity @a[distance=..50,scores={wightRestless=288000..},sort=nearest] run effect give @s minecraft:resistance 1 5 true
 execute as @e[type=stray,name=Wight] at @s if entity @a[distance=..50,scores={wightRestless=288000..},sort=nearest] run effect give @s minecraft:fire_resistance 1 0 true
 execute as @e[type=skeleton_horse,name="Wight Horse"] at @s if entity @a[distance=..50,scores={wightRestless=288000..},sort=nearest] run effect give @s minecraft:fire_resistance 1 0 true
-#Gives Reward/Resets Timer
+#Gives Reward & Advancement/Resets Timer
 execute as @a[scores={wightRestless=408000..}] run give @s minecraft:leather_chestplate{display:{Name:"{\"text\":\"Cloak Of The Wight\",\"color\":\"aqua\"}",Lore:["Gives Partial Invisibility When Worn"],color:4907519}} 1
+execute as @a[scores={wightRestless=408000..}] run advancement grant @s only darkathame_comp1_13:shittymcadvancements/stalkingwight
 scoreboard players set @a[scores={wightRestless=408000..}] wightRestless 0
 #Cape Stuff
 execute at @e[tag=!wightCstp,nbt={Inventory:[{Slot:102b,id:"minecraft:leather_chestplate",tag:{display:{Lore:["Gives Partial Invisibility When Worn"]}}}]}] run summon armor_stand ~ ~-2 ~ {NoGravity:1b,Marker:1b,Invisible:1b,ArmorItems:[{},{},{},{id:"minecraft:black_banner",Count:1b,tag:{BlockEntityTag:{Base:15,Patterns:[{Pattern:bo,Color:12},{Pattern:sku,Color:12},{Pattern:hhb,Color:12}]}}}],CustomName:"{\"text\":\"wightCape\"}"}
