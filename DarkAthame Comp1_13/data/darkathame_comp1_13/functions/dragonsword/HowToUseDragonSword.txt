@@ -2,3 +2,6 @@ Break Some High Quality Dirt
 
 From u/Pikachu62999328
 Called "Add the Dragon Sword, a sword you get by breaking dirt."
+
+Uses:
+dragonsword.json
