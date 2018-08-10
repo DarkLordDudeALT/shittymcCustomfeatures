@@ -3,6 +3,8 @@ execute at @e[type=item,nbt={Item:{id:"minecraft:gunpowder"}}] as @e[type=pig,di
 #The Bit For Consuming The Gunpowder Once
 execute as @e[type=pig,tag=explosivePig] at @s[tag=!stopKe] run kill @e[limit=1,distance=..1,type=item,nbt={Item:{id:"minecraft:gunpowder"}}]
 tag @e[type=pig,tag=explosivePig] add stopKe
+#Grants Advancement
+execute at @e[type=pig,tag=explosivePig] as @a[distance=..6] run advancement grant @s only darkathame_comp1_13:shittymcadvancements/explosivepigs
 #Detects Hurt Pigs
 tag @e[type=pig,tag=explosivePig] add hurtE
 tag @e[type=pig,nbt={HurtTime:0s},tag=explosivePig] remove hurtE
