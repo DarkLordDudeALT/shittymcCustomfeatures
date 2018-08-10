@@ -20,6 +20,8 @@ execute at @a[scores={eatCheeto=1..},tag=eatCheeto] run kill @e[type=armor_stand
 execute at @e[type=armor_stand,name=chetCstic,tag=succsD] as @a[distance=..1,limit=1] run effect give @s minecraft:slowness 20 6 true
 execute at @e[type=armor_stand,name=chetCstic,tag=succsD] as @a[distance=..1,limit=1] run effect give @s minecraft:jump_boost 20 128 true
 execute at @e[type=armor_stand,name=chetCstic,tag=succsD] as @a[distance=..1,limit=1] run tellraw @s {"text":"Your Super Sticky!","color":"green","bold":true,"italic":true,"hoverEvent":{"action":"show_text","value":"Ewww"}}
+#Gives Advancement
+execute at @e[type=armor_stand,name=chetCstic,tag=succsD] as @a[distance=..1,limit=1] run advancement grant @s only darkathame_comp1_13:shittymcadvancements/cheetos
 #Reset
 kill @e[type=armor_stand,name=chetCstic]
 #An Oddly Complex System To Test If A Player Has Eaten A Cheeto
