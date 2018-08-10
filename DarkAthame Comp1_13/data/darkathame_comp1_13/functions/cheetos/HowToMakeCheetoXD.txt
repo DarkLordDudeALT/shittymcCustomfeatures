@@ -4,3 +4,6 @@ Careful, You Might Get Sticky
 From u/reythedrummer 
 called "Add a Cheeto to minecraft"
 On r/crappymcsuggestions
+
+Uses:
+cheetos.json
