@@ -45,9 +45,9 @@ scoreboard players set @a[scores={wightRestless=408000..}] wightRestless 0
 execute at @e[tag=!wightCstp,nbt={Inventory:[{Slot:102b,id:"minecraft:leather_chestplate",tag:{display:{Lore:["Gives Partial Invisibility When Worn"]}}}]}] run summon armor_stand ~ ~-2 ~ {NoGravity:1b,Marker:1b,Invisible:1b,ArmorItems:[{},{},{},{id:"minecraft:black_banner",Count:1b,tag:{BlockEntityTag:{Base:15,Patterns:[{Pattern:bo,Color:12},{Pattern:sku,Color:12},{Pattern:hhb,Color:12}]}}}],CustomName:"{\"text\":\"wightCape\"}"}
 tag @a remove wightCstp
 execute at @e[type=armor_stand,name=wightCape] as @a[limit=1,distance=..3,nbt={Inventory:[{Slot:102b,id:"minecraft:leather_chestplate",tag:{display:{Lore:["Gives Partial Invisibility When Worn"]}}}]}] run tag @s add wightCstp
-execute as @a[tag=wightCstp] at @s run teleport @e[type=armor_stand,name=wightCape,limit=1,distance=..3] @s
-execute at @a[tag=wightCstp] run teleport @e[type=armor_stand,name=wightCape,limit=1,distance=..3] ~ ~-2 ~
-execute at @a[tag=!wightCstp] run kill @e[type=armor_stand,name=wightCape,distance=..3]
+execute as @a[tag=wightCstp] at @s run teleport @e[type=armor_stand,name=wightCape,limit=1,distance=..4] @s
+execute at @a[tag=wightCstp] run teleport @e[type=armor_stand,name=wightCape,limit=1,distance=..4] ~ ~-2 ~
+execute at @a[tag=!wightCstp] run kill @e[type=armor_stand,name=wightCape,distance=..4]
 effect give @a[nbt={Inventory:[{Slot:102b,id:"minecraft:leather_chestplate",tag:{display:{Lore:["Gives Partial Invisibility When Worn"]}}}]}] minecraft:invisibility 1 0 true
 #Reset
 scoreboard players set @a wightAwake 0
