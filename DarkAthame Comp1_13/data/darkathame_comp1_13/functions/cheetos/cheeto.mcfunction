@@ -1,4 +1,4 @@
-#Crafting Recipie For The Cheeto
+#Crafting Recipe For The Cheeto
 execute at @e[limit=1,type=item,nbt={Item:{id:"minecraft:wheat",Count:1b}}] as @e[distance=..1,type=item,nbt={Item:{id:"minecraft:milk_bucket"}}] run summon armor_stand ~ ~ ~ {CustomNameVisible:0b,NoGravity:1b,Marker:1b,Invisible:1b,CustomName:"{\"text\":\"makeCheeto\"}"}
 execute at @e[type=armor_stand,name=makeCheeto] run kill @e[type=item,nbt={Item:{id:"minecraft:wheat"}},distance=..1,limit=1]
 execute at @e[type=armor_stand,name=makeCheeto] run kill @e[type=item,nbt={Item:{id:"minecraft:milk_bucket"}},distance=..1,limit=1]
