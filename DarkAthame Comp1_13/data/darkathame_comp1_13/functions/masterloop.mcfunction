@@ -49,3 +49,6 @@
 
 ##Cheeto
 #function darkathame_comp1_13:cheetos/cheeto
+
+##Lit Creepers
+#function darkathame_comp1_13:litcreepers/excreeper
