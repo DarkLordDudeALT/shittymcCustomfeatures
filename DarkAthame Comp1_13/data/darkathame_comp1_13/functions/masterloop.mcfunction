@@ -52,3 +52,6 @@
 
 ##Lit Creepers
 #function darkathame_comp1_13:litcreepers/excreeper
+
+##Tide Pods
+#function darkathame_comp1_13:tidepod/edibletide
