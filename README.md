@@ -9,7 +9,7 @@ Just Put The Command [function darkathame_comp1_13:masterloop] On Whatever Loop 
 Use The Hashtags To Enable/Disable Functions In The Master Loop.
 Some Files May Have A Int (Install) And A Unint (Uninstall) Function File, These Are Used To Activate/Deactivate Things Like Scoreboards, So Make Sure To Use Them!
 
-All Modules Have A .txt Explaining What They Do (Sometimes), Who Its From, And Any Non-Function Files They Use, Mainly .json Files
+All Modules Have A .txt Explaining What They Do (Sometimes), Who Its From, And Any Non-Function Files They Use, Mainly .json Files.
 
 Now With Advancements.
 
