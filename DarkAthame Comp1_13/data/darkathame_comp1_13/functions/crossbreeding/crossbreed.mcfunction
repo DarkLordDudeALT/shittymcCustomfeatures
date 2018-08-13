@@ -54,7 +54,6 @@ effect give @e[type=dolphin,name=cCowMut] minecraft:invisibility 1 0 true
 #Force Pairs Entites
 execute as @e[type=dolphin,name=cCowMut] at @s unless entity @e[type=cow,name="Sea Cow",distance=..2] run kill @s 
 execute as @e[type=cow,name="Sea Cow"] at @s unless entity @e[type=dolphin,name=cCowMut,distance=..2] run kill @s 
-
 #Removes Catalyst Items
 execute at @e[type=polar_bear,scores={cbredT=599}] run kill @e[limit=1,distance=..1,type=item,nbt={Item:{id:"minecraft:cod"}}]
 execute at @e[type=polar_bear,scores={cbredT=599}] run kill @e[limit=1,distance=..1,type=item,nbt={Item:{id:"minecraft:salmon"}}]
