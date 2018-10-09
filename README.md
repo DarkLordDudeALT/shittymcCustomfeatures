@@ -1,17 +1,17 @@
-I'm Gonna Try And Make Some Of Those Beautiful Ideas From r/shittymcsuggestions (And Some Other Equivalents).
+I'm gonna try and make some of those beautiful ideas from r/shittymcsuggestions (and some other equivalents).
 
-Yeah That's Right, Now I'm Not Going To Do Everything, Some Suggestions Are Far To... Perplexing?, Anyways Ima Try And Big Cheese It.
-Your Free To Use Any File Here However You Want, That Is My Intention After All.
+Yeah that's right, now I'm not going to do everything, some suggestions are far to... perplexing?, anyways Ima try and big cheese it.
+Your free to use any file here however you want, that is my intention after all.
 
-Put [DarkAtham Comp1_13] Into Your Datapacks Folder And Use What Files That You Want In There.
-Just Put The Command [function darkathame_comp1_13:masterloop] On Whatever Loop You Have, To Get Things Going.
+Put [DarkAtham Comp1_13] into your Datapacks folder and use what files that you want in there.
+Just put the command, [function darkathame_comp1_13:masterloop], on whatever loop you have to get things going.
 
-Use The Hashtags To Enable/Disable Functions In The Master Loop.
-Some Files May Have A Int (Install) And A Unint (Uninstall) Function File, These Are Used To Activate/Deactivate Things Like Scoreboards, So Make Sure To Use Them!
+Use the hashtags to enable/disable functions in the Master Loop.
+Some files may have a Int (install) and a Unint (uninstall) function file, these are used to activate/deactivate things like scoreboards, so make sure to use them!
 
-All Modules Have A .txt Explaining What They Do (Sometimes), Who Its From, And Any Non-Function Files They Use, Mainly .json Files.
+All modules have a .txt explaining what they do (sometimes), who suggested the idea, and any non-function files they use, mainly .json files.
 
-Now With Advancements.
+Now with advancements!
 
 Worst Regards,
 u/Athame-The-VoidIndex.
