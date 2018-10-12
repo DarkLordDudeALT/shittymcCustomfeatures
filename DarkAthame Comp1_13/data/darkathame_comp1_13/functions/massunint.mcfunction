@@ -68,3 +68,4 @@ scoreboard objectives remove jumpExp
 scoreboard objectives remove swimExp 
 scoreboard objectives remove flyExp 
 scoreboard objectives remove fallThrough
+scoreboard objectives remove congaPos 
