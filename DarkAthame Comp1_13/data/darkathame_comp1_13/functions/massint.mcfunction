@@ -68,4 +68,4 @@ scoreboard objectives add jumpExp minecraft.custom:minecraft.jump
 scoreboard objectives add swimExp minecraft.custom:minecraft.swim_one_cm
 scoreboard objectives add flyExp minecraft.custom:minecraft.fly_one_cm
 scoreboard objectives add fallThrough dummy
-
+scoreboard objectives add congaPos dummy
