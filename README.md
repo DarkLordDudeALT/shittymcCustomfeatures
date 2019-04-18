@@ -15,6 +15,8 @@ All modules have a .txt explaining what they do (sometimes), who suggested the i
 
 Now with advancements!
 
+Oh, and 100% dicontinued!
+
 Worst Regards,
 u/Athame-The-VoidIndex.
 
