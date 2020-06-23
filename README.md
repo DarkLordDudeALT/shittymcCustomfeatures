@@ -1,6 +1,6 @@
 100% dicontinued!
 
-Yeah, I don't like this, and I will never touch it again.
+I don't like this, and I will never touch it again.
 
 If you do want to use it:
 
@@ -15,7 +15,3 @@ If individually installing scoreboards isn't your gig then you can use [/functio
 All modules have a .txt explaining what they do (sometimes), who suggested the idea, and any non-function files they use, mainly .json files.
 
 Now with advancements!
-
-Worst Regards,
-u/Athame-The-VoidIndex.
-
